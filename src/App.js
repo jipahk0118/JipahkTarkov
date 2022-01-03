@@ -4,12 +4,12 @@ import "./App.css";
 function App() {
   const [mapName, setMapName] = useState(undefined);
   const [ammoName, setAmmoName] = useState(undefined);
-  const [menuDrawer, setMenuDrawer] = useState(false);
+  const [menuDrawer, setMenuDrawer] = useState(true);
 
   return (
     <div className="app">
       <div className="header">
-        <div>Jipahk's project</div>
+        <div id="menu0">Jipahk's project</div>
         <div className="top-button">
           <a href="#menu1">a</a>
           <a href="#menu2">Maps</a>
@@ -18,11 +18,11 @@ function App() {
       </div>
       <div className="body">
         <div id="menu1">
-          test box from a<a href="top">top</a>
+          test box from a<a href="#menu0">top</a>
         </div>
         <div id="menu2">
           <div id="map-bar">
-            <a href="top">top</a>
+            <a href="#menu0">top</a>
             <ul className="map-list">List</ul>
             <li>
               <a
@@ -101,7 +101,7 @@ function App() {
         </div>
         {/* 탄약차트 */}
         <div id="menu3">
-          <a href="top">top</a>
+          <a href="#menu0">top</a>
           <div
             className="aaa"
             onClick={() => {

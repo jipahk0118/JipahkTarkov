@@ -40,7 +40,7 @@
 #menu2 {
   width: 1920px;
   height: 1080px;
-  background-color: yellow;
+  background-color: rgb(56, 56, 56);
   display: flex;
 }
 #menu3 {
@@ -58,7 +58,6 @@
 #map-window {
   width: auto;
   height: 100%;
-  background-color: tomato;
 }
 #map-window > img {
   height: inherit;
