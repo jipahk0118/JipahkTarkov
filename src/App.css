@@ -45,8 +45,9 @@
 }
 #menu3 {
   width: 1920px;
-  height: 1080px;
-  background-color: yellowgreen;
+  height: 1300px;
+  background-color: rgb(8, 6, 5);
+  color: aliceblue;
 }
 #map-bar {
   font-size: large;
@@ -79,4 +80,13 @@
 .List > img {
   margin-top: 17px;
   max-width: 60px;
+  cursor: grab;
+}
+
+.List > img:active {
+  cursor: grabbing;
+}
+
+.aaa {
+  border: 1px solid white;
 }
