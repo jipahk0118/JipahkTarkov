@@ -64,12 +64,19 @@
   width: inherit;
 }
 .bulletType {
-  display: flex;
   font-size: large;
-  font-weight: 700;
+  font-weight: 800;
 }
-.bulletType > div {
-  margin-left: 100px;
+.bullet {
+  display: flex;
+  flex-direction: row;
+}
+.bullet > div {
+  margin-left: 30px;
   display: flex;
   flex-direction: column;
+}
+.List > img {
+  margin-top: 17px;
+  max-width: 60px;
 }
