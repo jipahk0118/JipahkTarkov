@@ -63,3 +63,13 @@
   height: inherit;
   width: inherit;
 }
+.bulletType {
+  display: flex;
+  font-size: large;
+  font-weight: 700;
+}
+.bulletType > div {
+  margin-left: 100px;
+  display: flex;
+  flex-direction: column;
+}

@@ -98,7 +98,14 @@ function App() {
           </div>
         </div>
         <div id="menu3">
-          3<a href="top">top</a>
+          <a href="top">top</a>
+          <div>탄약</div>
+          <div className="bulletType">
+            <div>권총탄</div>
+            <div>PDW탄</div>
+            <div>소총탄</div>
+            <div>샷건탄</div>
+          </div>
         </div>
       </div>
     </div>
